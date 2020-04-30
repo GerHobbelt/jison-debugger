@@ -25,7 +25,8 @@
     "@gerhobbelt/lex-parser": "0.6.0-193",
     "lodash": "4.17.4",
     "object-assign": "4.1.1",
-    "through2": "2.0.3"
+    "through2": "2.0.3",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "browserify-shim": "3.8.14",
@@ -77,6 +78,9 @@
   "scripts": {
     "postinstall": "npm run build-jison",
     "build-jison": "sh ./bin/build-jison.sh",
-    "deploy": "sh ./bin/deploy.sh"
-  }
+    "deploy": "sh ./bin/deploy.sh",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
