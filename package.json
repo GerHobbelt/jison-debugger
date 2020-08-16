@@ -23,7 +23,7 @@
     "jison-gho": "0.6.0-193",
     "keymirror": "0.1.1",
     "@gerhobbelt/lex-parser": "0.6.0-193",
-    "lodash": "4.17.4",
+    "lodash": "4.17.20",
     "object-assign": "4.1.1",
     "through2": "2.0.3"
   },
